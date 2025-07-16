@@ -6,8 +6,9 @@ int main() {        // 'int' = Keyword, 'main' = Identifier, '()' = Operator
 
     return 0;  // 'return' = Keyword, '0' = Constant, ';' = Operator
 }
-//Token Type	ตัวอย่างในโค้ด
-//Keyword	int, return
-//Identifier	main, printf
-//Constant	"Hello,\n", "C Tokens!\n", 0
-//Operator	(), ;, =                                     
+/*Token Type	ใช้อยู่ในโค้ด
+Keyword	int, return
+Identifier	main, printf
+Constant	"Hello,\n", "C Tokens!\n", 0
+Operator	(), ;, =   */
+                            

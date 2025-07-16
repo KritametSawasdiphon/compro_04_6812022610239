@@ -1,15 +1,8 @@
-#include <stdio.h>  // เรียกใช้ standard input/output library
-int main() {  // ฟังก์ชันหลักที่เริ่มการทำงานของโปรแกรม
-    int a = 10;  // ประกาศตัวแปรชนิด int ชื่อ a และกำหนดค่าเริ่มต้นเป็น 10
+#include <stdio.h>  //ขาด # หน้าคำสั่ง include → ต้องเป็น #include <stdio.h>
+int main() {  
+    int a = 10;   //ลืมใส่ ; หลัง int a = 10
 
-    printf("a = %d", a);  // แสดงผลค่าของตัวแปร a บนหน้าจอ
+    printf("a = %d", a);  //ลืมใส่ ; หลัง printf("a = %d", a)
 
-    return 0;  // คืนค่า 0 เพื่อบอกว่าการทำงานของโปรแกรมสิ้นสุดอย่างถูกต้อง
+    return 0;  //ลืมใส่ ; หลัง return 0
 }
-//ขาด # หน้าคำสั่ง include → ต้องเป็น #include <stdio.h>
-
-//ลืมใส่ ; หลัง int a = 10
-
-//ลืมใส่ ; หลัง printf("a = %d", a)
-
-//ลืมใส่ ; หลัง return 0
